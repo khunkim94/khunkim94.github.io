@@ -26,7 +26,11 @@ a {
   color: #555;
 }
 p {
-  color: #555;
+  color: black;
+}
+h1 {
+  color: #ff523b;
+  padding-bottom: 40px;
 }
 .container {
   max-width: 1300px;
@@ -34,7 +38,9 @@ p {
   padding-left: 25px;
   padding-right: 25px;
 }
-h1, h2, ul {
+h1,
+h2,
+ul {
   text-align: center;
 }
 ul {
@@ -52,7 +58,7 @@ ul li {
   border-radius: 30px;
 }
 img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

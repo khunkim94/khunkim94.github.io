@@ -3,49 +3,110 @@
   margin: 0;
   padding: 0;
 }
-
-body{
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #222;
-    line-height: 1.8;
-    background-color: azure;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.8;
+  background-color: white;
 }
 ul {
-    list-style: none;
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
 }
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 10px 10px 0px 0px;
 }
-.container{
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+header {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  color: #070821;
+  font-size: 20px;
+}
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
-    word-spacing: -1ch;
+  word-spacing: -1ch;
 }
-.item{
-    word-spacing: normal;
-    display: inline-block;
-    vertical-align: top;
+.main-content {
+  margin-top: 40px;
 }
-.main{
-    width: 75%;
+.menu {
+  margin-top: 40px;
+}
+.item {
+  word-spacing: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-link {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #070821;
+  margin-right: 10px;
+}
+.menu-link.active {
+  background-color: #ffc4cd;
+  color: #070821;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+.menu-link:hover {
+  background-color: #ffe1e7;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.main {
+  width: 75%;
 }
 .aside {
-    width: 25%;
+  width: 25%;
+  background-color: #070821;
+  padding: 16px;
+  border-radius: 10px;
+  color: #fff;
 }
-.section.item{
-
+.top .item {
+  width: 33%;
+  height: 400px;
 }
-.menu-link{
-    display: block;
-    background-color: aqua;
-    padding: 10px;
+.bottom .item {
+  width: 33%;
+  height: 600px;
 }
-.menu-link.active{
-    
+.button {
+  width: 33%;
+  text-align: center;
+}
+.content {
+  background-color: #f2f2f2;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.img,
+.content {
+  margin-right: 16px;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

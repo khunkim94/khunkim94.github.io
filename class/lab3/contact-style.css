@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.8;
+  background-color: white;
+}
+ul {
+  list-style: none;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 10px 10px 0px 0px;
+}
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+header {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  color: #070821;
+  font-size: 20px;
+}
+footer {
+  word-spacing: normal;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-align: right;
+}
+main {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 200;
+  padding: 30px 150px;
+}
+.row {
+  word-spacing: -1ch;
+}
+.main-content {
+  margin-top: 40px;
+}
+.menu {
+  margin-top: 40px;
+}
+.item {
+  word-spacing: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-link {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #070821;
+  margin-right: 10px;
+}
+.menu-link.active {
+  background-color: #070821;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+.menu-link:hover {
+  background-color: #d0d2ea;
+  color: #070821;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+h2 {
+  font-size: 40px;
+}
+h2 ~ p {
+  margin-bottom: 24px;
+}
+.form input {
+  border-radius: 24px;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 55px;
+  border: none;
+  padding: 0 20px;
+  color: #070821;
+  margin-bottom: 10px;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  font-family: inherit;
+}
+.form textarea {
+  border-radius: 24px;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 200px;
+  border: none;
+  padding: 20px;
+  color: #070821;
+  margin-bottom: 10px;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  font-family: inherit;
+}
+.form button {
+  border: none;
+  border-radius: 32px;
+  height: 50px;
+  background-color: #d0d2ea;
+  color: #070821;
+  padding: 0px 40px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  font-family: inherit;
+  font-size: inherit;
+}
+button:hover {
+  background-color: #070821;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.contacts {
+  margin-bottom: 40px;
+}
+.contacts a {
+  text-decoration: none;
+  color: #070821;
+}

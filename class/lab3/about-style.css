@@ -18,7 +18,7 @@ ul {
 img {
   max-width: 100%;
   vertical-align: middle;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
 .container {
   max-width: 900px;
@@ -34,11 +34,6 @@ header {
   color: #070821;
   font-size: 20px;
 }
-img.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 .row {
   word-spacing: -1ch;
 }
@@ -51,7 +46,7 @@ img.logo {
 .item {
   word-spacing: normal;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .menu-link {
   display: block;
@@ -68,45 +63,30 @@ img.logo {
   border-radius: 10px;
 }
 .menu-link:hover {
-  background-color: #D0D2EA;
+  background-color: #d0d2ea;
   color: #070821;
   border-radius: 10px;
   transition: 0.5s;
-}
-.main {
-  width: 75%;
-}
-.aside {
-  width: 25%;
-  background-color: #070821;
-  padding: 16px;
-  border-radius: 10px;
-  color: #fff;
-}
-.top .item {
-  width: 33%;
-  height: 410px;
-}
-.bottom .item {
-  width: 33%;
-  height: 580px;
-}
-.content {
-  background-color: #f2f2f2;
-  border-radius: 0px 0px 10px 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-.img,
-.content {
-  margin-right: 16px;
 }
 footer {
   word-spacing: normal;
   background-color: #000;
   color: #fff;
   font-size: 14px;
-  padding:10px;
   text-align: right;
+  padding: 10px;
+}
+.content {
+  width: 50%;
+  padding-right: 48px;
+  margin-bottom: 40px;
+}
+.side-img {
+  width: 50%;
+}
+p {
+  text-align: justify;
+}
+h2 {
+  font-size: 40px;
 }

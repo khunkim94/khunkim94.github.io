@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(240, 240, 240);
+}
+
+.row {
+  word-spacing: -1ch;
+}
+
+/* Top Navigation */
+a img {
+  width: 130px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #fff;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: middle;
+  word-spacing: normal;
+}
+.logo {
+  width: 15%;
+}
+.search {
+  width: 55%;
+  position: relative;
+}
+
+.search-bar input {
+  width: 600px;
+  height: 48px;
+  padding-left: 16px;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+
+.search-button a {
+  display: block;
+  background-color: orange;
+  color: #fff;
+  height: 48px;
+  width: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.cart {
+  width: 5%;
+}
+
+.cart a {
+  display: block;
+  color: rgb(18, 18, 90);
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+}
+
+.ad {
+  width: 25%;
+}

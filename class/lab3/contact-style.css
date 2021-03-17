@@ -117,6 +117,7 @@ h2 ~ p {
   display: block;
   font-size: 16px;
   font-family: inherit;
+  resize: none;
 }
 .form button {
   border: none;

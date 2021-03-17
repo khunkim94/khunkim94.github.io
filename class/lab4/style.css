@@ -1,0 +1,133 @@
+body {
+  height: 10000px;
+}
+/* Menu chính */
+.menu {
+  word-spacing: -1ch;
+}
+
+.nav {
+  position: relative;
+  z-index: 10;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-item {
+  display: inline-block;
+  vertical-align: top;
+  word-spacing: normal;
+  position: relative;
+}
+
+.menu-link {
+  display: block;
+  padding: 20px;
+  background-color: burlywood;
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link.active,
+.menu-item:hover .menu-link {
+  background-color: crimson;
+  color: #fff;
+}
+
+/* Menu con */
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150%;
+}
+
+.sub-item {
+  position: relative;
+}
+
+.sub-link {
+  display: block;
+  padding: 20px;
+  background-color: burlywood;
+  color: black;
+  text-decoration: none;
+}
+
+.sub-item:hover .sub-link {
+  background-color: crimson;
+  color: #fff;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+/* Menu cấp 3 */
+.third-menu {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+.third-link {
+  display: block;
+  padding: 20px;
+  background-color: burlywood;
+  color: black;
+  text-decoration: none;
+}
+.third-item:hover .third-link {
+  background-color: crimson;
+  color: #fff;
+}
+
+.sub-item:hover .third-menu {
+  display: block;
+}
+
+/* Call button */
+.call-button {
+  display: block;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-decoration: none;
+  line-height: 100px;
+}
+
+/* Overlay */
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.wrapper:hover .overlay {
+  display: block;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 127, 80, 0.5);
+}

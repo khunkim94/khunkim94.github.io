@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form-style.css" />
+  </head>
+  <body>
+    <form name="singup" action="">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+
+      <div class="form-group">
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday" />
+      </div>
+
+      <div class="form-group">
+        <label for="favorite-number">Favorite Namber</label>
+        <input type="number" name="favorite-number" id="favorite-number""
+        min="100" max="1000" step="100">
+      </div>
+
+      <div class="form-group">
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="avatar" accept="image/*" />
+      </div>
+
+      <div class="form-group">
+        <label for="">Gender</label>
+
+        <div class="input-group">
+          <input type="radio" name="gender" id="male" value="Nam" checked />
+          <label for="male">Male</label>
+        </div>
+
+        <div class="input-group">
+          <input type="radio" name="gender" id="female" value="Nữ" />
+          <label for="female">Female</label>
+        </div>
+
+        <div class="input-group">
+          <input type="radio" name="gender" id="other" value="Khác" />
+          <label for="other">Other</label>
+        </div>
+      </div>
+
+      <div class="form-group option-group">
+        <label for="">Tùy chọn</label>
+        <div class="option">
+          <div class="input-group-option">
+            <input
+              type="checkbox"
+              name="option"
+              value="email"
+              id="email"
+              checked
+            />
+            <label for="">Nhận thông tin khuyên mãi</label>
+          </div>
+          <div class="input-group-option">
+            <input type="checkbox" name="option" value="spam" id="spam" />
+            <label for="">Nhận email spam</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="city">Địa chỉ</label>
+        <select name="city" id="city">
+          <option value="1992" selected>Hà Nội</option>
+          <option value="1992">Hồ Chí Minh</option>
+          <option value="1992">Nam Định</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="note">Note</label>
+        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="form-group button-group">
+        <input type="submit" value="Gửi đi" />
+        <input type="reset" value="Xóa đi" />
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    empty-cells: hide;
+}
+
+table, tr, th, td{
+    width: 100px;
+    border: 1px solid grey;
+}
+
+th, td{
+    padding: 10px;
+    vertical-align: middle;
+}
+
+tbody tr:nth-child(odd){
+    background-color: khaki;
+}
+
+.bg {
+    background-color: khaki;
+}

@@ -111,8 +111,8 @@ input {
   outline: none;
 }
 
-.sign-in-btn:hover{
-    background-color: #1570e7;
+.sign-in-btn:hover {
+  background-color: #146cdf;
 }
 
 .sub-link {
@@ -133,22 +133,22 @@ hr {
 }
 
 .create-acc-btn {
-  display: block;
   background-color: #42b72a;
   color: #fff;
   border: none;
   border-radius: 6px;
   font-size: 17px;
   line-height: 48px;
-  padding: 0 16px;
+  padding: 14px 20px;
   cursor: pointer;
   margin: auto;
   font-weight: bold;
   outline: none;
+  text-decoration: none;
 }
 
-.create-acc-btn:hover{
-    background-color: #3ba326;
+.create-acc-btn:hover {
+  background-color: #3ba326;
 }
 
 .info {

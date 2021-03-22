@@ -1,0 +1,91 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CLass chung, tạo cấu trúc */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.j-start {
+  justify-content: flex-start;
+}
+
+.flex.j-center {
+  justify-content: center;
+}
+
+.flex.j-end {
+  justify-content: flex-end;
+}
+
+.flex.j-between {
+  justify-content: space-between;
+}
+
+.flex.a-stretch {
+  align-items: stretch;
+}
+
+.flex.a-start {
+  align-items: flex-start;
+}
+
+.-flex.a-center {
+  align-items: center;
+}
+
+.flex.a-end {
+  align-items: flex-end;
+}
+
+/* Header */
+.actions {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 200px;
+  margin-right: 50px;
+}
+
+.menu-item {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 3px 10px;
+}

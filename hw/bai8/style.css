@@ -238,6 +238,20 @@ h6 {
   cursor: pointer;
 }
 
+.menu-item .deco-line {
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: rgba(162, 95, 75, 0.3);
+  visibility: hidden;
+  transition: width 0.3s 0s ease;
+}
+
+.menu-item:hover .deco-line {
+  width: 100%;
+  visibility: visible;
+}
+
 .active {
   opacity: 1;
 }
@@ -395,13 +409,14 @@ h6 {
   height: 540px;
   display: block;
   position: relative;
+  cursor: pointer;
 }
 
 .item-img .btn {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 15px;
+  bottom: 0;
   padding: 18px;
   background-color: #fff;
   box-shadow: 0 2px 6px 0 rgb(29 31 46 / 10%);
@@ -413,6 +428,9 @@ h6 {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s 0s ease;
 }
 
 .item-info {
@@ -461,19 +479,26 @@ h6 {
 .line {
   text-decoration: line-through;
 }
+
+.item-img:hover .btn {
+  visibility: visible;
+  bottom: 15px;
+  opacity: 1;
+}
 /* More products */
 .product-img {
   width: 300px;
   height: 380px;
   display: block;
   position: relative;
+  cursor: pointer;
 }
 
 .product-img .btn {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 15px;
+  bottom: 0;
   padding: 18px;
   background-color: #fff;
   box-shadow: 0 2px 6px 0 rgb(29 31 46 / 10%);
@@ -485,6 +510,15 @@ h6 {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s 0s ease;
+}
+
+.product-img:hover .btn {
+  opacity: 1;
+  visibility: visible;
+  bottom: 15px;
 }
 
 .product-1 {
@@ -577,6 +611,10 @@ h6 {
   text-transform: uppercase;
 }
 
+.magazine-content .btn:hover {
+  background-color: #353850;
+}
+
 /* Parallax */
 .parallax {
   height: 340px;
@@ -610,13 +648,14 @@ h6 {
   display: block;
   position: relative;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 .story-img .btn {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 15px;
+  bottom: 0;
   padding: 18px;
   background-color: #fff;
   box-shadow: 0 2px 6px 0 rgb(29 31 46 / 10%);
@@ -628,6 +667,15 @@ h6 {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s 0s ease;
+}
+
+.story-img:hover .btn {
+  opacity: 1;
+  visibility: visible;
+  bottom: 15px;
 }
 
 .story-name {
@@ -711,9 +759,10 @@ h6 {
   text-decoration: none;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 
-.text-field:active {
+.text-field:focus {
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
@@ -743,6 +792,8 @@ h6 {
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 15px;
+  margin-top: -9px;
+  margin-right: 10px;
   color: rgba(29, 31, 46, 0.6);
 }
 

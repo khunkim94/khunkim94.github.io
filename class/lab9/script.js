@@ -45,22 +45,22 @@
 // console.log("Giá trị nhiệt độ K = " + kevin(a) + " K");
 
 // Bài 4
-let a = Number(prompt("Nhập số giây"));
+// let a = Number(prompt("Nhập số giây"));
 
-function hour(a) {
-  return a / 3600;
-}
+// function hour(a) {
+//   return a / 3600;
+// }
 
-function minute(a) {
-  return a / 60;
-}
+// function minute(a) {
+//   return a / 60;
+// }
 
-console.log(
-  "Số giờ/phút/giây tương ứng = " +
-    hour(a) +
-    "h: " +
-    minute(a) +
-    "m: " +
-    a +
-    "s"
-);
+// console.log(
+//   "Số giờ/phút/giây tương ứng = " +
+//     hour(a) +
+//     "h: " +
+//     minute(a) +
+//     "m: " +
+//     a +
+//     "s"
+// );

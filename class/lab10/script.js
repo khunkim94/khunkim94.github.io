@@ -70,7 +70,7 @@
 let a = Number(prompt("Nhập số a"));
 let b = Number(prompt("Nhập số b"));
 
-if (a == 0 & b == 0) {
+if (a == 0 && b == 0) {
     console.log("pt vô số nghiệm");
 } else if (a == 0 && b !== 0) {
     console.log("pt vô nghiệm");

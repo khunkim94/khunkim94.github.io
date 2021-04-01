@@ -45,9 +45,9 @@
 // console.log("Giá trị nhiệt độ K = " + kevin(a) + " K");
 
 // Bài 4
-let s = Number(prompt("Nhập số giây"));
-let gio = (s - (s % 3600)) / 3600;
-let phut = (s - gio * 3600 - ((s - gio * 3600) % 60)) / 60;
-let giay = s - gio * 3600 - phut * 60;
+// let s = Number(prompt("Nhập số giây"));
+// let gio = (s - (s % 3600)) / 3600;
+// let phut = (s - gio * 3600 - ((s - gio * 3600) % 60)) / 60;
+// let giay = s - gio * 3600 - phut * 60;
 
-console.log(gio + ":" + phut + ":" + giay);
+// console.log(gio + ":" + phut + ":" + giay);

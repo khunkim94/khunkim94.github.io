@@ -12,9 +12,10 @@
 // let a = Number(prompt("Nhập số a:"));
 // let b = Number(prompt("Nhập số b:"));
 // let c = Number(prompt("Nhập số c:"));
-// a > b && a > c && console.log(a + " là số lớn nhất");
-// b > a && b > c && console.log(b + " là số lớn nhất");
-// c > a && c > b && console.log(c + " là số lớn nhất");
+// let max = a;
+// b >= max && (max = b);
+// c >= max && (max = c);
+// console.log(max + " là số lớn nhất");
 
 // Viết chương trình nhập 3 số a, b, c bất kỳ. Kiểm tra 3 số đó có tạo thành tam giác hợp lệ hay không và in ra kết quả, sử dụng toán tử logic
 
@@ -50,12 +51,18 @@
 
 //  VCT nhập một ký tự char, kiểm tra và in ra ký tự đó là nguyên hay phụ âm (tiếng Anh)
 
-// let char = prompt("Nhập một ký tự bất kỳ:");
-// if (char == "a" || char == "A" || char == "e" || char == "E" || char == "i" || char == "I" || char == "o" || char == "O" || char == "u" || char == "U") {
-//     console.log(char + " là nguyên âm");
-// } else {
-//     console.log(char + " là phụ âm");
-// }
+let char = prompt("Nhập một ký tự bất kỳ:");
+if (("A" <= char && char <= "Z") || ("a" <= char && char <= "z")) {
+    if (char == "a" ||
+        char == "e" ||
+        char == "i" ||
+        char == "o" ||
+        char == "u") {
+    console.log(char + " là nguyên âm");
+  }
+} else {
+  console.log(char + " là phụ âm");
+}
 
 // VCT nhập một ký tự char, kiểm tra và in ra ký tự đó là chữ thường hay chữ in hoa
 

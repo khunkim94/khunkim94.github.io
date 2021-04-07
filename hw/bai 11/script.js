@@ -8,7 +8,7 @@
 //     } else if (i % 5 == 0) {
 //         console.log("Buzz");
 //     } else {
-//         console.log(i);
+//         console.log("BizzFuzz");
 //     }
 // }
 
@@ -26,20 +26,13 @@
 
 
 // VCT nhập vào một số n, kiểm tra số đó có phải số nguyên tố hay không và in ra kết quả
-// let n = Number(prompt("Nhập số n:"));
-
-// if (n < 2) {
-//     console.log(n + " KHÔNG phải số nguyên tố");
-// } else if (n == 2) {
-//     console.log(n + " là số nguyên tố");
-// } else {
-//     for (i = 3; i <= Math.sqrt(n); i++) {
-//         if (n % i == 0) {
-//             console.log(n + " KHÔNG phải số nguyên tố");
-//         } else {
-//             console.log(n + " là số nguyên tố");
+// function isPrime(n) {
+//     for (let i = 2; i < n / 2; i++) {
+//         if (n % 1 == 0) {
+//             return false;
 //         }
 //     }
+//     return true;
 // }
 
 // VCT nhập vào 2 số a, b kiểm tra và in ra các số nguyên tố trong khoảng a -> b
@@ -60,6 +53,14 @@
 //     }
 //   }
 // }
+
+let(i = a = 15, b = 15; i <= b; i++) {
+    if (isPrime(i)) {
+        console.log(i + " là số nguyên tố");
+    } else {
+        console.log(i + " KHÔNG phải là số nguyên tố")
+    }
+}
 
 // VCT in ra bảng cửu chương ngược (từ 10 -> 1)
 

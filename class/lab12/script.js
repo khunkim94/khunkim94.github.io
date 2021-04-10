@@ -31,16 +31,59 @@
 
 // }
 
-let salaries = {
-  anna: 1000,
-  john: 1200,
-  phoebe: 2000,
-  brian: 1500,
-  dianna: 1100,
-  min: function () {
-    console.log(this.anna);
-  },
-};
+// let salaries = {
+//   anna: 1000,
+//   john: 1200,
+//   phoebe: 2000,
+//   brian: 1500,
+//   dianna: 1100,
+//   min: function () {
+//     console.log(this.anna);
+//   },
+// }
+
+// function remove(obj, key) {
+//   let copy = Object.assign({}, obj);
+//   delete copy[key];
+//   return copy;
+// }
+
+// console.log(remove(salaries, "anna"));
+// console.log(salaries);
+
+// let a = { x: 1, y: 2 };
+// let b = { x: 1, y: 2 };
+// function isEqual(obj1, obj2) {
+//   for (let k in obj1) {
+//     if (!(k in obj2) || obj1[k] != obj2[k]) {
+//       return false;
+//     }
+//   }
+
+//   for (let k in obj2) {
+//     if (!(k in obj1) || obj1[k] != obj2[k]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// console.log(isEqual(a, b));
+
+let a = { x: 1, y: 2 };
+let b = { x: 1, z: 2 };
+
+function intersection(obj1, obj2) {
+  let objReturn = {};
+  for (let k in obj1) {
+    if ((k in obj2 && obj1[k] = obj2[k])) {
+      objReturn[k] = obj1[k];
+    }
+  }
+  return objReturn;
+}
+
+console.log(intersection(a, b));
 
 // function input(obj) {
 //     for (; ;) {

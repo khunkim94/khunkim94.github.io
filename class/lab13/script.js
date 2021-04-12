@@ -132,18 +132,86 @@
 
 // Làm thế nào để cho phép gọi hàm theo chuỗi VD counter.up().up().get().down().get();
 
-function Counter(count) {
-  this.count = count || 0;
-  this.up = function () {
-    this.count++;
-    return this;
-  };
-  this.down = function () {
-    this.count--;
-    return this;
-  };
-  this.get = function () {
-    console.log("Current: " + this.count);
-    return this;
+// function Counter(count) {
+//   this.count = count || 0;
+//   this.up = function () {
+//     this.count++;
+//     return this;
+//   };
+//   this.down = function () {
+//     this.count--;
+//     return this;
+//   };
+//   this.get = function () {
+//     console.log("Current: " + this.count);
+//     return this;
+//   };
+// }
+
+// Viết hàm tạo Rectangle(wide, long, unit) nhận vào 3 tham số tương ứng với chiều rộng / dài / đơn vị (m, km) của hình chữ nhật
+
+// function Rectangle(wide, long, unit) {
+//   this.wide = wide;
+//   this.long = long;
+//   this.unit = unit;
+//   this.toString = function () {
+//     return (
+//       "Hình chữ nhật, " + this.long + this.unit + ", " + this.wide + this.unit
+//     );
+//   };
+//   this.chuVi = function () {
+//     return 2 * (this.long + this.wide);
+//   };
+//   this.dienTich = function () {
+//     return this.long * this.wide;
+//   };
+// };
+
+
+// Triển khai các phương thức getter setter cho wide/long (phải lớn hơn 0), unit (phải là một trong các đơn vị m, km)
+
+function Rectangle(wide, long, unit) {
+  return {
+    _wide: wide,
+    _long: long,
+    _unit: unit,
+    get unit() {
+      return this._unit;
+    },
+    set unit(newValue) {
+      if ((newValue == "m" || newValue = "km")) {
+        this._unit = newValue;
+      }
+    },
+    get wide() {
+      return this._wide;
+    },
+    set wide(newValue) {
+      if (newValue > 0) {
+        this._wide = newValue;
+      }
+    },
+    get long() {
+      return this._long;
+    },
+    set long(newValue) {
+      if (newValue > 0) {
+        this._long = newValue;
+      }
+    },
+    toString() {
+      return (
+        "Hình chữ nhật, " + this.long + this.unit + ", " + this.wide + this.unit
+      );
+    },
+    valueOf() {
+      return this.long * this.wide;
+    }
   };
 }
+
+// Triển khai phương thức phù hợp để in được object ra theo mẫu: String(rect) -> hình chữ nhật, chiều dài x m, rộng y m
+
+// Triển khai phương thức phù hợp để so sánh được 2 object rect1 > rect2 -> true/false
+
+// Triển khai các thức trả về chu vi, diện tích hình chữ nhật

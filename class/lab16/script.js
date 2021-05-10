@@ -29,3 +29,4 @@ btn.onclick = function () {
   let c = toCelcius(from.value, Number(temp.value));
   result.value = celciusTo(to.value, c);
 };
+

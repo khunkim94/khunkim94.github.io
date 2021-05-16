@@ -1,0 +1,378 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1060px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1060px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: #b4ad9e;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", serif;
+}
+
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+}
+
+.nav {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 24px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 120px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  padding: 0;
+}
+
+.post-content {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.post-category {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.post-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
+.post-detail {
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+}
+
+.post-comment {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.post-comment:hover {
+  text-decoration: underline;
+}
+
+.post-list {
+  margin-top: 130px;
+  margin-bottom: 75px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.post-list .post-content {
+  padding: 0;
+}
+
+.post .post-category {
+  margin-top: 30px;
+}
+
+.newsletter {
+  background-color: #f0f0f0;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.newsletter .post-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.mail {
+  width: 400px;
+  padding: 4px;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.mail::placeholder {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn {
+  margin-top: 100px;
+  text-align: center;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  border-radius: 0;
+  border: 1px solid rgb(98, 98, 98);
+  padding: 14px 30px;
+}
+
+.btn:hover {
+  background-color: #b4ad9e;
+  border: 1px solid #b4ad9e;
+}
+
+.post-content img:not(:first-child) {
+    margin-top: 50px;
+}
+
+.sub-text {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  font-style: italic;
+  line-height: 1.714;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.social-links {
+  text-align: right;
+}
+
+.social-links a:not(:last-child) {
+  margin-right: 13px;
+}
+
+.social-links a i {
+  font-size: 20px;
+  color: #b4ad9e;
+}
+
+.recommend {
+  background-color: #f5f5f5;
+  margin-top: 70px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.recommend .post-category {
+ margin-top: 0;
+}
+
+.recommend .post-title {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin-top: 25px;
+}
+
+.comments {
+  margin-bottom: 100px;
+}
+
+.username {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.comments .post-category {
+  margin-top: 60px;
+
+}
+
+.comments .text {
+  font-size: 13px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+}
+
+.reply {
+  font-size: 13px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.comment-form {
+  padding-left: 20px;
+  height: 52px;
+  font-size: 13px;
+  font-family: "Ubuntu";
+  border: 1px solid #c8c8c8;
+
+}
+
+.comment-form::placeholder {
+  color: #c8c8c8;
+}
+
+.comments .social-links{
+  margin-top: 30px;
+}
+
+.comments .social-links .fa-facebook-f {
+  color: #626262;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pl-8 {
+  padding-left: 80px;
+}
+
+.link {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer .social-links a i{
+  color: #626262;
+}
+
+.mt-10 {
+  margin-top: 100px;
+}
+
+.side-bar .post-title {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 0.833;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.side-bar .text {
+  font-size: 12px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.667;
+}
+
+.side-bar .social-links {
+  text-align: left;
+
+}
+
+.top-post {
+  margin-bottom: 50px;
+}
+
+.top-post .post-category {
+  margin-top: 70px;
+}
+
+.top-post .post-list {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.top-post .post-list .dot {
+  height: 5px;
+  width: 5px;
+  background-color: #626262;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 24px;
+  vertical-align: top;
+}
+
+
+.top-post .post-list .post .title {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.top-post .post-list .post .comment {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.top-post .post-list .post:not(:first-child) {
+  margin-top: 30px;
+}
+
+.top-post .post-list .post {
+  margin-left: 20px;
+}
+
+.top-post .post-list .post::marker {
+  color: #b4ad9e;
+}
+
+.pr-3 {
+  padding-right: 30px !important;
+}

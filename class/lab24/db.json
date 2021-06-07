@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "first_name": "Ba",
+      "last_name": "Nguyễn",
+      "email": "ba@techmaster.vn",
+      "phone": "01234567890"
+    },
+    {
+      "id": 2,
+      "first_name": "Ngọc",
+      "last_name": "Lê",
+      "email": "ngocle@techmaster.vn",
+      "phone": "09876543210"
+    },
+    {
+      "id": 3,
+      "first_name": "Tú",
+      "last_name": "Anh",
+      "email": "tuanh@techmaster.vn",
+      "phone": "09876543210"
+    },
+    {
+      "id": 4,
+      "first_name": "Mỹ",
+      "last_name": "Hạnh",
+      "email": "myhanh@techmaster.vn",
+      "phone": "09876543210"
+    },
+    {
+      "id": 5,
+      "first_name": "Duy",
+      "last_name": "Quang",
+      "email": "duyquang@techmaster.vn",
+      "phone": "09876543210"
+    },
+    {
+      "id": 6,
+      "first_name": "Quốc",
+      "last_name": "Cường",
+      "email": "quoccuong@techmaster.vn",
+      "phone": "09876543210"
+    }
+  ]
+}

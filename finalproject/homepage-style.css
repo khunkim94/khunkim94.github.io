@@ -242,13 +242,23 @@ margin-bottom: 64px;
   margin-left: 8px;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
+
 .mr-10 {
   margin-right: 10px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 .mb-100 {
   margin-bottom: 100px;
 }
+
+
 
 .text-field-with-icon {
   background-color: var(--white);
@@ -326,6 +336,10 @@ margin-bottom: 64px;
   text-decoration: none;
 }
 
+.adoption .card .card-info .gender {
+  margin-left: 4px;
+}
+
 .tips {
   background-color: #f1f1f1;
   padding-top: 80px;
@@ -357,7 +371,7 @@ margin-bottom: 64px;
 .news-title {
   font-family: Kollektif_bold;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 24px;
   color: var(--black);
   margin-bottom: 8px;
 }
@@ -594,4 +608,59 @@ height: 440px;
 
 .shelter-info .btn {
   margin-top: 24px;
+}
+
+.donation-intro .section-title {
+  margin-bottom: 0 0 16px 0;
+}
+
+.donation-intro .card img {
+  height: 40px;
+  margin: 24px 0;
+}
+
+.donation-intro .card p:first-child {
+  margin-top: 24px;
+  font-family: Kollektif_bold;
+}
+
+.donation-intro .card p:last-child {
+  margin-bottom: 20px;
+}
+
+.donation-intro .card p {
+  margin-bottom: 4px;
+}
+
+.about-intro .card {
+  padding: 24px;
+  box-shadow: none;
+}
+
+.about-intro .card:hover {
+  box-shadow: none;
+  transform: none;
+}
+
+.feedback {
+  background-color: #f1f1f1;
+  padding: 80px 0 80px 0;
+}
+
+.feedback .feedback-btn {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.feedback-form input:first-child {
+  margin-right: 20px;
+}
+
+.feedback-form .text-field:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.feedback-form textarea{
+  resize: none;
+  height: 180px;
 }

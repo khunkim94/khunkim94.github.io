@@ -81,9 +81,35 @@
           <div class="col-xl-8 p-0">
             <section class="pet-detail-info p-0">
               <div class="container">
-                <div class="row">
-                  <div class="col-xl-12">
-                    <img src="./img/maltese-portrait.jpg" alt="" />
+                  <div class=" mySlides">
+                    <img src="./img/maltese-portrait.jpg" alt=""/>
+                  </div> 
+                  <div class="mySlides">
+                    <img src="./img/Maltese-1024x683.jpeg" alt=""/>
+                  </div>
+                  <div class="mySlides">
+                    <img src="./img/Maltese-2.jpg" alt=""/>
+                  </div>
+                  <div class="mySlides">
+                    <img src="./img/DBS_Maltese_1280.jpg" alt=""/>
+                  </div>
+
+                  <!-- Next and previous buttons -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="row pet-small-img">
+                  <div class="col-xl-3">
+                    <img src="./img/maltese-portrait.jpg" alt="" class="demo cursor" style="width:100%" onclick="currentSlide(1)">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="./img/Maltese-1024x683.jpeg" alt="" class="demo cursor" style="width:100%" onclick="currentSlide(2)">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="./img/Maltese-2.jpg" alt="" class="demo cursor" style="width:100%" onclick="currentSlide(3)">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="./img/DBS_Maltese_1280.jpg" alt="" class="demo cursor" style="width:100%" onclick="currentSlide(4)">
                   </div>
                 </div>
 
@@ -165,20 +191,36 @@
                               <h3 class="card-title">About</h3>
                             </div>
                           </div>
+                          <div class="row mb-40">
+                            <div class="col-xl-4">
+                              <h5 class="subdue">characteristics:</h5>
+                              <p class="m-0">Sweet, friendly</p>
+                            </div>
+
+                            <div class="col-xl-4">
+                              <h5 class="subdue">coat length:</h5>
+                              <p class="m-0">Long</p>
+                            </div>
+
+                            <div class="col-xl-4">
+                              <h5 class="subdue">house trained:</h5>
+                              <p class="m-0">Yes</p>
+                            </div>
+                          </div>
                           <div class="row">
                             <div class="col-xl-4">
-                              <h5 class="subdue">breed:</h5>
-                              <p class="m-0">Maltese</p>
+                              <h5 class="subdue">health:</h5>
+                              <p class="m-0">Vaccinations up to date, spayed/neutered.</p>
                             </div>
 
                             <div class="col-xl-4">
-                              <h5 class="subdue">age:</h5>
-                              <p class="m-0">2 years old</p>
+                              <h5 class="subdue">good in a home with:</h5>
+                              <p class="m-0">Other dogs, children.</p>
                             </div>
 
                             <div class="col-xl-4">
-                              <h5 class="subdue">color:</h5>
-                              <p class="m-0">White</p>
+                              <h5 class="subdue">weight:</h5>
+                              <p class="m-0">7kg</p>
                             </div>
                           </div>
                         </div>
@@ -266,39 +308,20 @@
           </div>
         </div>
 
-        <div class="row mb-24">
-            <div class="col-xl-3">
-              <a href="pet-detail.html">
-                <div class="card">
-                  <img src="./img/dog1.jpg" alt="" />
-                  <div class="card-info">
-                    <div class="d-flex flex-row align-items-center">
-                      <h3 class="card-title">Momo</h3>
-                      <img src="./img/female.svg" alt="" class="gender" />
-                   </div>
-                   <p>Maltese, 2 years old</p>
-                    <div class="card-location d-flex flex-row align-items-center">
-                     <img src="./img/location_blue.svg" alt="" />
-                      <p class="m-0 blue-text">Hanoi,Vietnam</p>
-                    </div>
-                 </div>
-                </div>
-              </a>
-            </div>
-
+        <div class="row">
           <div class="col-xl-3">
             <a href="pet-detail.html">
               <div class="card">
-                <img src="./img/dog1.jpg" alt="" />
+                <img src="./img/dog5.jpg" alt="" />
                 <div class="card-info">
                   <div class="d-flex flex-row align-items-center">
-                    <h3 class="card-title">Momo</h3>
-                    <img src="./img/female.svg" alt="" class="gender" />
+                    <h3 class="card-title">Judson</h3>
+                    <img src="./img/male.svg" alt="" class="gender" />
                   </div>
-                  <p>Maltese, 2 years old</p>
+                  <p>Bichon Frise, 2 years old</p>
                   <div class="card-location d-flex flex-row align-items-center">
                     <img src="./img/location_blue.svg" alt="" />
-                    <p class="m-0 blue-text">Hanoi,Vietnam</p>
+                    <p class="m-0 blue-text">Hanoi</p>
                   </div>
                 </div>
               </div>
@@ -308,16 +331,16 @@
           <div class="col-xl-3">
             <a href="pet-detail.html">
               <div class="card">
-                <img src="./img/dog1.jpg" alt="" />
+                <img src="./img/dog6.jpg" alt="" />
                 <div class="card-info">
                   <div class="d-flex flex-row align-items-center">
-                    <h3 class="card-title">Momo</h3>
-                    <img src="./img/female.svg" alt="" class="gender" />
+                    <h3 class="card-title">Fluffy</h3>
+                    <img src="./img/male.svg" alt="" class="gender" />
                   </div>
-                  <p>Maltese, 2 years old</p>
+                  <p>Pomeranian, 1 year old</p>
                   <div class="card-location d-flex flex-row align-items-center">
                     <img src="./img/location_blue.svg" alt="" />
-                    <p class="m-0 blue-text">Hanoi,Vietnam</p>
+                    <p class="m-0 blue-text">Hanoi</p>
                   </div>
                 </div>
               </div>
@@ -327,16 +350,35 @@
           <div class="col-xl-3">
             <a href="pet-detail.html">
               <div class="card">
-                <img src="./img/dog1.jpg" alt="" />
+                <img src="./img/dog7.jpg" alt="" />
                 <div class="card-info">
                   <div class="d-flex flex-row align-items-center">
-                    <h3 class="card-title">Momo</h3>
+                    <h3 class="card-title">Kat</h3>
                     <img src="./img/female.svg" alt="" class="gender" />
                   </div>
-                  <p>Maltese, 2 years old</p>
+                  <p>Poodle, 1 year old</p>
                   <div class="card-location d-flex flex-row align-items-center">
                     <img src="./img/location_blue.svg" alt="" />
-                    <p class="m-0 blue-text">Hanoi,Vietnam</p>
+                    <p class="m-0 blue-text">Ho Chi Minh City</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-xl-3">
+            <a href="pet-detail.html">
+              <div class="card">
+                <img src="./img/dog8.jpg" alt="" />
+                <div class="card-info">
+                  <div class="d-flex flex-row align-items-center">
+                    <h3 class="card-title">Zena</h3>
+                    <img src="./img/female.svg" alt="" class="gender" />
+                  </div>
+                  <p>Chihuahua, 3 years old</p>
+                  <div class="card-location d-flex flex-row align-items-center">
+                    <img src="./img/location_blue.svg" alt="" />
+                    <p class="m-0 blue-text">Ho Chi Minh City</p>
                   </div>
                 </div>
               </div>
@@ -435,6 +477,7 @@
         </div>
       </div>
     </section>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

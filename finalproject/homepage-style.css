@@ -111,6 +111,10 @@ body {
   background-color: var(--click-yellow) !important;
 }
 
+.btn:focus {
+  box-shadow: none !important;
+}
+
 .btn-dark-blue:hover {
   background-color: var(--hover-dark-blue) !important;
   box-shadow: 0px 12px 20px rgba(106, 115, 129, 0.22);
@@ -368,6 +372,10 @@ margin-bottom: 64px;
   padding-right: 16px !important;
 }
 
+.news a .card p {
+  color: #000000;
+}
+
 .news-title {
   font-family: Kollektif_bold;
   font-size: 20px;
@@ -384,6 +392,10 @@ margin-bottom: 64px;
   background-color: var(--main-color-yellow) !important;
 }
 
+.newsletter .container-fluid img {
+  max-width: 100%;
+}
+
 .newsletter .text-field-with-icon {
   margin-bottom: 0;
   width: 400px;
@@ -391,16 +403,11 @@ margin-bottom: 64px;
 }
 
 .newsletter .section-title {
-  margin-top: 139px;
   margin-bottom: 8px;
 }
 
 .newsletter p {
   margin-bottom: 32px !important;
-}
-
-.newsletter form {
-  margin-bottom: 140px;
 }
 
 .sponsors {
@@ -466,6 +473,7 @@ margin-bottom: 64px;
   border: 1px solid var(--placeholder-blue);
 }
 
+
 .form-select {
   border-radius: 12px !important;
   background-color: var(--light-blue) !important;
@@ -479,6 +487,11 @@ margin-bottom: 64px;
 
 main {
   margin-bottom: 60px;
+}
+
+.pet-small-img  img{
+  margin-top: 20px;
+  height: 160px !important;
 }
 
 .pet-detail-info {
@@ -632,6 +645,10 @@ height: 440px;
   margin-bottom: 4px;
 }
 
+.img-show img {
+  max-width: 100%;
+}
+
 .about-intro .card {
   padding: 24px;
   box-shadow: none;
@@ -663,4 +680,66 @@ height: 440px;
 .feedback-form textarea{
   resize: none;
   height: 180px;
+}
+
+.pet-detail-info .container {
+  position: relative !important;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 24px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: var(--main-color-dark-blue);
+  color: var(--main-color-yellow);
+}
+
+.prev:hover {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.next:hover {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
